@@ -13,7 +13,7 @@ body {
   border: none;
   height: 5px;
   background-color: white;
-  margin: 15px 0;
+  margin: 10px 0 5px 0;
 }
 
 .centered {
@@ -23,5 +23,5 @@ body {
   height: 100%;
   color: white;
   font-size: 24px;
-  padding-top: 50px;
+  padding-top: 10px;
 }

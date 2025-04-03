@@ -9,6 +9,13 @@ body {
   background-color: green;
 }
 
+.top-line {
+  border: none;
+  height: 2px;
+  background-color: white;
+  margin: 10px 0;
+}
+
 .centered {
   display: flex;
   justify-content: center;

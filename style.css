@@ -11,9 +11,9 @@ body {
 
 .top-line {
   border: none;
-  height: 2px;
+  height: 5px;
   background-color: white;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .centered {

@@ -9,11 +9,26 @@ body {
   background-color: green;
 }
 
-.top-line {
-  border: none;
-  height: 30px;
+.nav-container {
   background-color: white;
+  height: 30px;
   margin: 10px 0 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.nav-container button:hover {
+  text-decoration: underline;
 }
 
 .centered {

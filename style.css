@@ -14,9 +14,10 @@ body {
   height: 30px;
   margin: 10px 0 5px 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: 20px;
+  padding-right: 30px;
 }
 
 .nav-container button {

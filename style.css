@@ -47,3 +47,25 @@ body {
   margin: 0;
   font-weight: normal;
 }
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  color: white;
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.content p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

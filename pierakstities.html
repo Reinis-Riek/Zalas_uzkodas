@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pierakstīties - Zaļās uzkodas</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="nav-container">
+    <button onclick="window.location.href='index.html'">Sākums</button>
+    <button onclick="window.location.href='abonamenti.html'">Abonamenti</button>
+    <button onclick="window.location.href='kontakti.html'">Kontakti</button>
+    <button onclick="window.location.href='iepercies.html'">iepērcies</button>
+    <button onclick="window.location.href='par-mums.html'">Par mums</button>
+    <button onclick="window.location.href='atrast.html'">Kur mūs atrast</button>
+    <button onclick="window.location.href='pierakstities.html'">Pierakstīties</button>
+  </div>
+  <div class="content">
+    <h1>Pierakstīties</h1>
+    <form class="registration-form">
+      <div class="form-group">
+        <label for="name">Vārds:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-pasts:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Parole:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit" class="submit-btn">Pierakstīties</button>
+    </form>
+  </div>
+</body>
+</html>

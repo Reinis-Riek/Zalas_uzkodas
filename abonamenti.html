@@ -16,8 +16,93 @@
     <button onclick="window.location.href='par-mums.html'">Par mums</button>
     <button onclick="window.location.href='atrast.html'">Kur mūs atrast</button>
   </div>
-  <div class="centered">
-    <h1>Abonamenti</h1>
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <title>Abonementi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #008000;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    .subscription-container {
+      display: flex;
+      gap: 40px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      color: black;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .price span {
+      font-size: 16px;
+      font-weight: normal;
+    }
+
+    ul {
+      list-style: disc;
+      text-align: left;
+      padding-left: 20px;
+      margin: 20px 0;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Abonementi</h1>
+  <div class="subscription-container">
+    <!-- Full Plan -->
+    <div class="card">
+      <h2>Pilnais</h2>
+      <div class="price">$50<span>/mo</span></div>
+      <ul>
+        <li>Piegāde</li>
+        <li>Rieksti</li>
+        <li>Augļi</li>
+        <li>Dārzeņi</li>
+      </ul>
+      <button>Pirkt</button>
+    </div>
+
+    <!-- Partial Plan -->
+    <div class="card">
+      <h2>Nepilnais</h2>
+      <div class="price">$35<span>/mo</span></div>
+      <ul>
+        <li>Piegāde</li>
+        <li>Rieksti</li>
+        <li>Dārzeņi</li>
+      </ul>
+      <button>Pirkt</button>
+    </div>
   </div>
 </body>
 </html>
